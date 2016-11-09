@@ -9,6 +9,9 @@ class Restaurant < ApplicationRecord
     message: "Not a valid category" }
 
   def downcase_fields
-    self.category.downcase!
+    if self.category
+      self.category.downcase!
+    else
+    end
   end
 end

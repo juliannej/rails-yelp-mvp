@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# rake told me to install
+gem 'rails-controller-testing'
+
 # faker gem
 gem 'faker'
 
