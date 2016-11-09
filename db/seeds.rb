@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+category_ary = ["french", "belgian", "italian", "japanese", "chinese"]
+5.times do
+  Restaurant.create(name: Faker::Commerce.color.capitalize + " "+ Faker::Space.constellation.capitalize, address: Faker::Address.city, category: category_ary.sample, phone_number: Faker::PhoneNumber.phone_number)
+end
+
+# Faker::Commerce.color +

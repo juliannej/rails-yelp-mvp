@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# faker gem
+gem 'faker'
+
 # Gemfile from Le Wagon
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
